@@ -1,6 +1,14 @@
 # EdgeTX-Voiced-TXBattery
 
-This is a small Lua script for EdgeTX that speaks the transmitter battery level as a percentage.
+This is a small Lua script for EdgeTX that speaks the transmitter battery level as a percentage.  
+
+It came about after I'd been doing a lot of bench testing for an iNav setup and then had the low battery alarm going off during the first flight. 
+
+I like to have it triggered on disarm, so that at the end of the flight, I know how much battery is available for the next one. This also gives a report when the transmitter is powered on.
+
+## How it works
+
+When triggered, the script reads the transmitter battery voltage and uses the radio's configured battery minimum and maximum voltage settings to calculate a percentage. It rounds and limits the result to 0–100%, speaks the percentage, and plays a low-battery warning below 10%. If voltage is unavailable, it plays an unavailable prompt.
 
 ## Installation
 
@@ -11,11 +19,9 @@ This is a small Lua script for EdgeTX that speaks the transmitter battery level 
    `SOUNDS/en/SCRIPTS/TXBATPC/`
    Keep the folder structure and file names intact. The audio files are used for the spoken battery prompt and low-battery warning.
 4. Safely eject the SD card (if applicable) and restart the transmitter or refresh its SD card contents.
-5. In your model's **Special Functions** settings, add a function that runs the `txbatpc` Lua script. Choose the switch and repeat/trigger behavior you want for battery announcements.
+5. In your model's **Special Functions** settings, add a function that runs the `txbatpc` Lua script. Choose the switch/position, set the repeat/trigger behavior to x1 and check the activate box.
 
-## How it works
-
-When triggered, the script reads the transmitter battery voltage and uses the radio's configured battery minimum and maximum voltage settings to calculate a percentage. It rounds and limits the result to 0–100%, speaks the percentage, and plays a low-battery warning below 10%. If voltage is unavailable, it plays an unavailable prompt.
+**NOTE if the sound files starts playing in a loop when activated, power cycle the transmitter and it should work fine from then on**
 
 ## Troubleshooting missing voice files
 
