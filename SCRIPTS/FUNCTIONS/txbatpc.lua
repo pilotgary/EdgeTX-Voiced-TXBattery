@@ -1,5 +1,22 @@
 local TXBATT = "tx-voltage"
 
+local function playLocalizedAudio(filename)
+  local settings = getGeneralSettings()
+  local voiceLang = settings.voice or "en"
+  local basePath = "/SOUNDS/"
+  local targetPath = basePath .. voiceLang .. "/SCRIPTS/TXBATPC/" .. filename
+
+  -- Fall back to English if the localized file is missing.
+  if fstat(targetPath) == nil then
+    targetPath = basePath .. "en/SCRIPTS/TXBATPC/" .. filename
+  end
+
+  -- Play only when the localized or fallback file exists.
+  if fstat(targetPath) ~= nil then
+    playFile(targetPath)
+  end
+end
+
 local function my_run(event, touchState)
 
   local gs = getGeneralSettings()
@@ -8,11 +25,11 @@ local function my_run(event, touchState)
 
   local voltage = getValue(TXBATT)
   print(TXBATT, ":", voltage)
-  playFile("/SOUNDS/en/SCRIPTS/TXBATPC/txbat.wav")
+  playLocalizedAudio("txbat.wav")
 
   if not voltage then 
 	print("Tx Voltage Unavailable")
-    playFile("/SOUNDS/en/SCRIPTS/TXBATPC/TxBatU.wav")
+    playLocalizedAudio("TxBatU.wav")
     return -1
   end
 
@@ -28,7 +45,7 @@ local function my_run(event, touchState)
   
   if percent < 10 then
 	print( "Charge soon")
-	playFile("/SOUNDS/en/SCRIPTS/TXBATPC/chrgtx.wav")
+	playLocalizedAudio("chrgtx.wav")
   end
   
   return -1
