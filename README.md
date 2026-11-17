@@ -23,6 +23,32 @@ When triggered, the script reads the transmitter battery voltage and uses the ra
 
 **NOTE: If the sound files start playing in a loop when activated, power cycle the transmitter and it should work fine from then on**
 
+## Alternative voice files
+
+The included sound files are english using the Emily (Ireland) voice with a 20% speedup.  This was chosen as the best match for the EdgeTX supplied sound files.  If you would like to create alternatives, I would recommend using Vox-Pack (https://github.com/ritchy-lab/Vox-Pack) 🇬🇧&nbsp;**[English&nbsp;version](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.en.md)** · 🇫🇷 **[Version française](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.md)** . 🇩🇪&nbsp;**[Deutsche&nbsp;Fassung](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.de.md)**
+
+### English
+
+To create new voice files.
+
+1. Import the "en.csv" file in the csv folder into Vox-Pack by clicking the menu icon in the top left and then "Import a list..."
+<img width="813" height="434" alt="Vox-Pack" src="https://github.com/user-attachments/assets/0e8a5013-8ad3-41cd-adcb-1e4573ca5986" />
+
+2. Select the new voice and speed
+3. Click the Let's Go button and select the target folder
+
+The three voice files will be generated in the folder you specify.  Copy them to the SOUNDS/en/SCRIPTS/TXBATPC/ folder on your radio.
+
+### Alternative languages
+
+To create sound files in a different language
+1. save the en.csv to the new country code. E.g. Fr.csv for French.
+2. Edit the new file and repalce the text strings with the desired translations.  Do not edit the filenames.
+3. Import the new csv file into Vox-Pack
+4. Pick the new voice and speed
+5. Click the Let's Go button and select the target folder.
+6. Copy the new wav files to the SOUNDS/<Your langauge code>/SCRIPTS/TXBATPC/ folder on your radio.
+
 ## Troubleshooting missing voice files
 
 - Confirm the sound files are on the SD card under `SOUNDS/en/SCRIPTS/TXBATPC/` and that the folder and filenames are unchanged.
