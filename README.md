@@ -1,4 +1,4 @@
-I have created AI based translations of this document for 🇩🇪&nbsp;**[Deutsche&](README.de.md)** · es&nbsp;**[Español](README.es.md)** · 🇫🇷 **[Française](README.fr.md)** . I'm happy to ammend these to fix any errors.
+I have created AI-based translations of this document for 🇩🇪&nbsp;**[Deutsch](README.de.md)** · 🇪🇸&nbsp;**[Español](README.es.md)** · 🇫🇷&nbsp;**[Français](README.fr.md)**. I'm happy to amend these to fix any errors.
 
 # EdgeTX-Voiced-TXBattery
 
@@ -27,7 +27,7 @@ When triggered, the script reads the transmitter battery voltage and uses the ra
 
 ## Alternative voice files
 
-The included sound files are english using the Emily (Ireland) voice with a 20% speedup.  This was chosen as the best match for the EdgeTX supplied sound files.  If you would like to create alternatives, I would recommend using Vox-Pack (https://github.com/ritchy-lab/Vox-Pack) 🇬🇧&nbsp;**[English&nbsp;version](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.en.md)** · 🇫🇷 **[Version française](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.md)** . 🇩🇪&nbsp;**[Deutsche&nbsp;Fassung](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.de.md)**
+The included sound files are English using the Emily (Ireland) voice with a 20% speedup.  This was chosen as the best match for the EdgeTX supplied sound files.  If you would like to create alternatives, I would recommend using Vox-Pack (https://github.com/ritchy-lab/Vox-Pack) 🇬🇧&nbsp;**[English&nbsp;version](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.en.md)** · 🇫🇷 **[Version française](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.md)** . 🇩🇪&nbsp;**[Deutsche&nbsp;Fassung](https://github.com/ritchy-lab/Vox-Pack/blob/main/README.de.md)**
 
 ### English
 
@@ -43,15 +43,15 @@ The three voice files will be generated in the folder you specify.  Copy them to
 
 ### Other languages
 
-I have used Ai to generate translations for French, German and Spanish.  These are contained in the relevant paths in the SOUNDS folder.  I cannot vouch for the quality of the translations so please raise and issue with a better translation, preferred voice or speed.
+I have used AI to generate translations for French, German and Spanish.  These are contained in the relevant paths in the SOUNDS folder.  I cannot vouch for the quality of the translations so please raise an issue with a better translation, preferred voice or speed.
 
 To create sound files in a different language
 1. save the en.csv to the new country code. E.g. Fr.csv for French.
-2. Edit the new file and repalce the text strings with the desired translations.  Do not edit the filenames.
+2. Edit the new file and replace the text strings with the desired translations.  Do not edit the filenames.
 3. Import the new csv file into Vox-Pack
 4. Pick the new voice and speed
 5. Click the Let's Go button and select the target folder.
-6. Copy the new wav files to the SOUNDS/<Your langauge code>/SCRIPTS/TXBATPC/ folder on your radio.
+6. Copy the new wav files to the SOUNDS/<Your language code>/SCRIPTS/TXBATPC/ folder on your radio.
 
 ## Troubleshooting missing voice files
 
