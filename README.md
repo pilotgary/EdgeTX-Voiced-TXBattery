@@ -23,6 +23,8 @@ When triggered, the script reads the transmitter battery voltage and uses the ra
 4. Safely eject the SD card (if applicable) and restart the transmitter or refresh its SD card contents.
 5. In your model's **Special Functions** settings, add a function that runs the `txbatpc` Lua script. Choose the switch/position, set the repeat/trigger behavior to x1 and check the activate box.
 
+![pocket screen](images/pocket.jpg)
+
 **NOTE: If the sound files start playing in a loop when activated, power cycle the transmitter and it should work fine from then on**
 
 ## Alternative voice files
