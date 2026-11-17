@@ -23,6 +23,8 @@ Cuando se activa, el script lee el voltaje de la batería del transmisor y utili
 4. Expulsa la tarjeta SD de forma segura (si procede) y reinicia el transmisor o actualiza el contenido de su tarjeta SD.
 5. En los ajustes de **Funciones especiales** de tu modelo, añade una función que ejecute el script Lua `txbatpc`. Elige el interruptor/posición, establece el comportamiento de repetición/activación en x1 y marca la casilla de activación.
 
+![pocket screen](images/pocket.jpg)
+
 **NOTA: Si los archivos de sonido empiezan a reproducirse en bucle al activarse, apaga y vuelve a encender el transmisor y a partir de entonces debería funcionar correctamente.**
 
 ## Archivos de voz alternativos
