@@ -34,7 +34,7 @@ The included sound files are English using the Emily (Ireland) voice with a 20% 
 To create new voice files.
 
 1. Import the "en.csv" file in the csv folder into Vox-Pack by clicking the menu icon in the top left and then "Import a list..."
-[Vox-Pack](images/Vox-pack-en.png)
+![Vox-Pack](images/Vox-pack-en.png)
 
 2. Select the new voice and speed
 3. Click the Let's Go button and select the target folder
