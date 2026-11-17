@@ -34,7 +34,7 @@ Los archivos de sonido incluidos están en inglés con la voz Emily (Irlanda) ac
 Para crear nuevos archivos de voz:
 
 1. Importa el archivo «en.csv» de la carpeta csv en Vox-Pack haciendo clic en el icono de menú de la esquina superior izquierda y luego en «Import a list...».
-<img width="819" height="432" alt="image" src="https://github.com/user-attachments/assets/40859646-b3e5-43e4-8fb5-74e9da9a3f46" />
+![Vox-Pack](images/Vox-pack-es.png)
 
 
 2. Selecciona la nueva voz y la velocidad.
