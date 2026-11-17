@@ -1,3 +1,5 @@
+I have created AI based translations of this document for 🇩🇪&nbsp;**[Deutsche&](README.de.md)** · es&nbsp;**[Español](README.es.md)** · 🇫🇷 **[Française](README.fr.md)** . I'm happy to ammend these to fix any errors.
+
 # EdgeTX-Voiced-TXBattery
 
 This is a small Lua script for EdgeTX that speaks the transmitter battery level as a percentage.  
@@ -39,7 +41,9 @@ To create new voice files.
 
 The three voice files will be generated in the folder you specify.  Copy them to the SOUNDS/en/SCRIPTS/TXBATPC/ folder on your radio.
 
-### Alternative languages
+### Other languages
+
+I have used Ai to generate translations for French, German and Spanish.  These are contained in the relevant paths in the SOUNDS folder.  I cannot vouch for the quality of the translations so please raise and issue with a better translation, preferred voice or speed.
 
 To create sound files in a different language
 1. save the en.csv to the new country code. E.g. Fr.csv for French.
