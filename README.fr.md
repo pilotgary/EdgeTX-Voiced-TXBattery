@@ -23,6 +23,8 @@ Lorsqu'il est déclenché, le script lit la tension de la batterie de l'émetteu
 4. Éjectez la carte SD en toute sécurité (le cas échéant) et redémarrez l'émetteur ou actualisez le contenu de sa carte SD.
 5. Dans les réglages **Fonctions spéciales** de votre modèle, ajoutez une fonction qui exécute le script Lua `txbatpc`. Choisissez l'interrupteur/la position, réglez le comportement de répétition/déclenchement sur x1 et cochez la case d'activation.
 
+![pocket screen](images/pocket.jpg)
+
 **REMARQUE : si les fichiers son se mettent à jouer en boucle lors de l'activation, éteignez puis rallumez l'émetteur ; le fonctionnement devrait ensuite être normal.**
 
 ## Fichiers vocaux alternatifs
