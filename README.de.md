@@ -34,7 +34,7 @@ Die mitgelieferten Sounddateien sind englisch und nutzen die Stimme Emily (Irlan
 So erstellst du neue Sprachdateien:
 
 1. Importiere die Datei „en.csv“ aus dem Ordner csv in Vox-Pack, indem du oben links auf das Menüsymbol und dann auf „Import a list...“ klickst.
-<img width="817" height="429" alt="image" src="https://github.com/user-attachments/assets/c264e993-5362-4151-b1dc-5df677b62497" />
+![Vox-Pack](images/Vox-pack-de.png)
 
 
 2. Wähle die neue Stimme und die Geschwindigkeit.
