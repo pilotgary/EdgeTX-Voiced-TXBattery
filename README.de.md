@@ -23,6 +23,8 @@ Wenn das Skript ausgelöst wird, liest es die Akkuspannung des Senders und berec
 4. Wirf die SD-Karte sicher aus (falls zutreffend) und starte den Sender neu oder aktualisiere den Inhalt seiner SD-Karte.
 5. Füge in den **Spezialfunktionen** deines Modells eine Funktion hinzu, die das Lua-Skript `txbatpc` ausführt. Wähle den Schalter bzw. die Schalterposition, stelle das Wiederholungs-/Auslöseverhalten auf x1 und setze das Häkchen bei „Aktiv“.
 
+![pocket screen](images/pocket.jpg)
+
 **HINWEIS: Wenn die Sounddateien beim Aktivieren in einer Endlosschleife abgespielt werden, schalte den Sender aus und wieder ein; danach sollte alles einwandfrei funktionieren.**
 
 ## Alternative Sprachdateien
